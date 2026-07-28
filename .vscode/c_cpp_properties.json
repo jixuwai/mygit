@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Users/28550/Downloads/vscodeFile/stm32/Servo/Core/Inc",
+                "C:/Users/28550/Downloads/vscodeFile/stm32/Servo/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+                "C:/Users/28550/Downloads/vscodeFile/stm32/Servo/Drivers/CMSIS/Include",
+                "C:/Users/28550/Downloads/vscodeFile/stm32/Servo/Drivers/STM32F1xx_HAL_Driver/Inc",
+                "C:/Users/28550/Downloads/vscodeFile/stm32/Servo/Core/Startup",
+                "C:/Users/28550/Downloads/vscodeFile/stm32/Servo/Hardwares/Inc",
+                "C:/Users/28550/Downloads/vscodeFile/stm32/Servo/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+            ],
+            "defines": [
+                "_DEBUG",
+                "USE_HAL_DRIVER",
+                "STM32F103xB"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "gnu++20",
+            "compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
