@@ -112,6 +112,7 @@ int main(void)
     OLED_ShowString(cnt,1,"->");
     OLED_ScopeClear(cnt,cnt,1,2);
     OLED_ShowNum(3, 7, cnt, 3);
+    HAL_Delay(100);
   /* USER CODE END 3 */
   }
 }
