@@ -100,6 +100,7 @@ int main(void)
   OLED_ShowString(2, 3, "music");
   OLED_ShowString(3, 3, "cnt:");
   HAL_Delay(10);
+  HAL_Delay(20);
   /* USER CODE END 2 */
 
   /* Infinite loop */
