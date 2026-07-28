@@ -99,6 +99,7 @@ int main(void)
   OLED_ShowString(1, 3, "video");
   OLED_ShowString(2, 3, "music");
   OLED_ShowString(3, 3, "cnt:");
+  HAL_Delay(10);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -112,7 +113,6 @@ int main(void)
     OLED_ShowString(cnt,1,"->");
     OLED_ScopeClear(cnt,cnt,1,2);
     OLED_ShowNum(3, 7, cnt, 3);
-    HAL_Delay(100);
   /* USER CODE END 3 */
   }
 }
